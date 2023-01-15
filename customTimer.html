@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!-- Reference: Meta Tags = https://www.w3schools.com/tags/tag_meta.asp-->
+    <title>custom timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/stylesheet3.css">
+  <link rel="icon" type="image/x-icon" href="./images/clock.ico">
+ <!-- Reference: How to make a Favicon = https://www.w3schools.com/html/html_favicon.asp -->
+</head>
+  <body>
+    <input id="userInput" type="number" value = "0"/>
+    <div>
+      <p id="timerr" class="square"> 00 </p>
+    </div>
+    <button class="button-1" onclick="startTime()">Start time</button>
+    <button class="button-2" onclick="stop()">Stop time</button>
+    <!-- Reference: Onclick Function = https://www.w3schools.com/jsref/event_onclick.asp -->
+    <div class="note-pos-1">
+      <li>Enter the amount of seconds you are going to work for above</li>
+    </div>
+
+    <div class="note-pos-2">
+      <li>If your time is in Hours or Minutes, convert that into seconds</li>
+      <li>E.g. 1 hr = 60 mins</li>
+    </div>
+
+    <script>
+      var myVar;
+      var timer = document.getElementById("userInput");
+      var countDownSeconds;
+      function startTime(){
+        myVar = setInterval(start, 1000);
+        document.getElementById("timerr").innerHTML = timer.value;
+        countDownSeconds = timer.value;
+      }
+
+      function start(){
+        countDownSeconds--;
+        document.getElementById("timerr").innerHTML = countDownSeconds;
+        if (countDownSeconds == -1){
+          stop();
+          document.getElementById("timerr").innerHTML = "0";
+        }
+      }
+
+      function stop(){
+        clearInterval(myVar);
+      }
+    </script>
+    <!-- Reference: Javascript tutorial = https://www.w3schools.com/js/DEFAULT.asp-->
+  </body>
+</html>

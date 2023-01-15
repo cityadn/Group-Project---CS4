@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!-- Reference: Meta Tags = https://www.w3schools.com/tags/tag_meta.asp-->
+    <link rel="stylesheet" href="./css/style11.css">
+    <link rel="icon" type="image/x-icon" href="./images/clock.ico">
+   <!-- Reference: How to make a Favicon = https://www.w3schools.com/html/html_favicon.asp -->
+    <title>confirm</title>
+  </head>
+  <body>
+
+    <main>
+      <!-- Reference: How to use the main tag = https://www.w3schools.com/tags/tag_main.asp-->
+      <h1>Let's check if your data is correct</h1>
+      <div id="data"></div>
+      <div>
+        <a href="./Time Management Dashboard - Sameer's Work/menu.html"><button id="btn" type="button" name="button">Confirm</button></a>
+      </div>
+
+      <div class="">
+        <img class="img-size" src="./images/Group-Logo-modified.png" alt="">
+      </div>
+    </main>
+
+  </body>
+  <script type="text/javascript">
+    const json = localStorage.getItem('form');
+    const obj = JSON.parse(json);
+
+    for (key in obj) {
+        const markup = `
+        <div>
+        <span>${key}: ${obj[key]}</span>
+        </div>
+        `;
+      document.getElementById('data').innerHTML += markup;
+    }
+  </script>
+  <!-- Reference: Javascript tutorial = https://www.w3schools.com/js/DEFAULT.asp-->
+</html>

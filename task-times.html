@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reference: Meta Tags = https://www.w3schools.com/tags/tag_meta.asp-->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/task-times.css">
+    <title>Task List With Times</title>
+    <link rel="icon" type="image/x-icon" href="./images/clock.ico">
+<!-- Reference: How to make a Favicon = https://www.w3schools.com/html/html_favicon.asp -->
+</head>
+<body>
+
+    <header>
+        <h1>Task List With Times</h1>
+    </header>
+    <form action="">
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-circle fa-lg"></i>
+        </button>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <div class="note-pos">
+      <hr>
+      <li>What sort of things do you do daily?</li>
+      <hr>
+      <li>How long does each of those things take?</li>
+      <hr>
+      <li>* Write down all your tasks, along with how long they take to do :D *</li>
+      <hr>
+    </div>
+
+    <script src="./javascript/task-times.js"></script>
+
+</body>
+</html>

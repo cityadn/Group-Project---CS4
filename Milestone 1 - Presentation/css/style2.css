@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: crimson;
+}
+
+.img_class_2 {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+  top: 200px;
+  left: 670px;
+}
+
+.header_2 {
+  position: absolute;
+  top: 420px;
+  left: 687px;
+  font-size: 40px;
+  font-weight: bold;
+}

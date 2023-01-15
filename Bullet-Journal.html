@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Reference: Meta Tags = https://www.w3schools.com/tags/tag_meta.asp-->
+    <title>Bullet Journal</title>
+    <link rel="stylesheet" href="./css/journal.css" />
+  <link rel="icon" type="image/x-icon" href="./images/clock.ico">
+ <!-- Reference: How to make a Favicon = https://www.w3schools.com/html/html_favicon.asp -->
+</head>
+  <body>
+    <header class="text-center">
+      <h2>Create Diary</h2>
+    </header>
+    <div class="wrapper text-center">
+      <textarea id="txt" rows="3" placeholder="How's Your Day?"></textarea>
+      <!-- Reference: How to use the textarea tag = https://www.w3schools.com/tags/tag_textarea.asp -->
+      <div class="text-l">
+
+      <button onclick="getRs()">Create</button>
+      <!-- Reference: Onclick Javascript function = https://www.w3schools.com/jsref/event_onclick.asp-->
+    </div>
+    </div>
+    <div id="rs" class="wrapper"></div>
+  </body>
+  <script src="./javascript/journal.js" type="text/javascript"></script>
+</html>

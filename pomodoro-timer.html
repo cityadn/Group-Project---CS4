@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!-- Reference: Meta Tags = https://www.w3schools.com/tags/tag_meta.asp-->
+    <title>Pomodoro Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4db4d231fa.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/stylesheet2.css">
+    <link rel="icon" type="image/x-icon" href="./images/clock.ico">
+  <!-- Reference: How to make a Favicon = https://www.w3schools.com/html/html_favicon.asp -->
+</head>
+  <body>
+    <section>
+
+      <div class="container">
+        <h1>Pomodoro</h1>
+
+        <div class="painel">
+          <p id="work">work</p>
+          <p id="break">break</p>
+        </div>
+
+        <div class="timer">
+          <div class="circle">
+            <div class="time">
+              <p id="minutes"></p>
+              <p>:</p>
+              <p id="seconds"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+          <!-- Reference: Onclick Javascript function = https://www.w3schools.com/jsref/event_onclick.asp-->
+          <a id="reset" href="./pomodoro-timer.html"><i class="fa-solid fa-rotate-left"></i></a>
+        </div>
+
+      </div>
+    </section>
+    <script src="./javascript/script.js"></script>
+  </body>
+
+</html>

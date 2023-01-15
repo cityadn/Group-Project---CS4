@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,900;1,500;1,600;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a695996380.js" crossorigin="anonymous"></script>
+<link href ="contact.css" rel = "stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                  <ul>
+                    <li><a href="menu.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="advice.html">Advice</a></li>
+                    <li><a href="../form.html">Login</a></li>
+                  </ul>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+        <div class="info">
+            <h1><span>Contact</span> Us</h1>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40070.21611654596!2d-0.21805656485769162!3d51.119741470640385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875ed930f13ff35%3A0x12f9939e52364adb!2sCrawley!5e0!3m2!1sen!2suk!4v1673792031372!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+ <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>151 South St, Lancing</h5>
+                        <p>Crawley, West Sussex, United Kingdom</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+44 7459 228520</h5>
+                        <p>Availability: Monday - Friday from 10AM - 5PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>Adnan.Shah@city.ac.uk</h5>
+                        <p>Email us your Enquiry</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" placeholder="Your Email Address" required>
+                    <input type="text" placeholder="Your Enquiry" required>
+                    <textarea rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>We are a team of University students who have designed a time management website that can be used in order to help and support anyone <br>from businesspeople, students, parents and much more!</br></p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/CityUoLondon/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/CityUniLondon?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/cityuniversitylondon/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://uk.linkedin.com/school/city-university-london/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@cityuniversitylondon"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <h3><span>Pomodoro Perfection <i class="fa-solid fa-clock"></i></span></h3>
+
+    </section>
+
+
+    <script>
+
+   var navLinks = document.getElementById("navLinks");
+
+   function showMenu(){
+    navLinks .style.right = "0";
+
+   }
+   function hideMenu(){
+    navLinks .style.right = "-200px";
+
+   }
+
+    </script>
+
+
+
+
+</body>
+</html>

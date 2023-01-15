@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="timer.css" rel = "stylesheet">
+    <title>Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,900;1,500;1,600;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a695996380.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Time Management</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Log in</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()"></i> 
+        </nav>
+
+        <div class="info">
+            <h1>Our <span>Timers</span></h1>
+            <p>Scroll down to try out our various timer versions, from Pomodoro to customisable and <span>more!</span></p>
+            
+        </div>
+
+    </section>
+
+
+    <section class="countdown">
+        <h1><span>Countdown</span> Timer</h1>
+        <p>Press the green button to initiate countdown and the red button to reset:</p>
+       <div class="timer"></div>
+
+        
+
+        <script src="main.js" type ="module"></script> 
+    </section>
+    
+</body>
+</html>
