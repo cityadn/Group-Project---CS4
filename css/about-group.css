@@ -1,0 +1,21 @@
+body {
+  background-color: coral;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+p {
+  margin-top: 175px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    margin-top: 0;
+    margin-left: 0;
+    display: inline;
+    text-align: center;
+  }
+}

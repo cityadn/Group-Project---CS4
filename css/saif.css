@@ -1,0 +1,108 @@
+body {
+  background-image: url('../images/saif-wallpaper.jpg');
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.name-pos {
+  position: absolute;
+  top: -15px;
+  left: 715px;
+  font-size: 80px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.second-heading-pos {
+  position: absolute;
+  top: 220px;
+  left: 615px;
+  font-size: 80px;
+  text-decoration: underline;
+  font-weight: lighter;
+  font-family: Times, sans-serif;
+  font-style: italic;
+}
+
+.contact-pos {
+  position: absolute;
+  top: 5px;
+  left: 1430px;
+  color: white;
+  font-size: 23px;
+}
+
+.contact-pos:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.about-me {
+  position: absolute;
+  top: 430px;
+  left: 575px;
+  text-align: center;
+  color: blue;
+  width: 400px;
+  background-color: turquoise;
+}
+
+.interests {
+  position: absolute;
+  top: 375px;
+  left: 100px;
+  color: blue;
+  background-color: turquoise;
+  text-align: center;
+}
+
+.skills {
+  position: absolute;
+  top: 375px;
+  left: 1025px;
+  text-align: center;
+  color: blue;
+  background-color: turquoise;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.img-one-pos {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+}
+.img-two-pos {
+  position: absolute;
+  top: 80px;
+  left: 1040px;
+}
+
+.img-one-size {
+  width: 400px;
+  height: 200px;
+}
+
+.links {
+  position: absolute;
+  top: 580px;
+  left: 1200px;
+}
+
+a {
+  background-color: turquoise;
+  color: white;
+}
+
+a:hover {
+  background-color: black;
+  color: blue;
+}
+
+.background {
+  background-color: black;
+}

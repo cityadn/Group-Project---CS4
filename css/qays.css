@@ -1,0 +1,118 @@
+body {
+  background-image: url("../images/qays-wallpaper.jpg");
+  background-size: cover;
+  color: teal;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bolder;
+}
+
+.name-pos {
+  position: absolute;
+  top: -15px;
+  left: 700px;
+  font-size: 80px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.second-heading-pos {
+  position: absolute;
+  top: 220px;
+  left: 345px;
+  font-size: 80px;
+  text-decoration: underline;
+  font-family: Times, sans-serif;
+  font-style: italic;
+}
+
+.contact-pos {
+  position: absolute;
+  top: 5px;
+  left: 1430px;
+  color: teal;
+  font-size: 23px;
+}
+
+.contact-pos:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.apricot-img {
+  position: absolute;
+  top: 160px;
+  left: 590px;
+  z-index: -1;
+}
+
+.apricot-size {
+  width: 400px;
+  height: 400px;
+}
+
+.employment {
+  position: absolute;
+  top: 560px;
+  left: 590px;
+  text-align: center;
+  color: teal;
+  background-color: black;
+  width: 400px;
+}
+
+.interests {
+  position: absolute;
+  top: 375px;
+  left: 30px;
+  color: coral;
+  background-color: black;
+  text-align: center;
+}
+
+.skills {
+  position: absolute;
+  top: 375px;
+  left: 1000px;
+  text-align: center;
+  color: coral;
+  background-color: black;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.img-one-pos {
+  position: absolute;
+  top: 80px;
+  left: 180px;
+}
+.img-two-pos {
+  position: absolute;
+  top: 80px;
+  left: 1175px;
+}
+
+.img-one-size {
+  width: 200px;
+  height: 200px;
+}
+
+.links {
+  position: absolute;
+  top: 600px;
+  left: 225px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+.background {
+  background-color: black;
+}

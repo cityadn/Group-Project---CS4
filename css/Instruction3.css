@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  margin-left: 550px;
+  margin-right: 550px;
+  color: crimson;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin-left: 0;
+    text-align: center;
+    display: inline;
+  }
+  .down_arrow {
+    opacity: 0;
+  }
+}
+
+::selection {
+background-color: gold;
+color: black;
+/* #013896 */
+}
+
+/* Reference: How to use the Selection Tag = https://www.w3schools.com/tags/tag_select.asp */
+/* Reference: Input Types - HTML = https://www.w3schools.com/html/html_form_input_types.asp*/
+
+.dropcap {
+float: left;
+font-size: 400%;
+color: #cf142b;
+margin: -13px 7px -13px 0;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+button {
+  background-color: coral;
+  opacity: 0.5;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.lime {
+  color: lime;
+}
+
+.red {
+  color: red;
+}
+
+.gold {
+  color: gold;
+}
+
+.aqua {
+  color: aqua;
+}
+
+.teal {
+  color: teal
+}
+
+.orange {
+  color: orange;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.down_arrow {
+  position: absolute;
+  top: 600px;
+  left: 1150px;
+  color: coral;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  font-family: monospace;
+  background-color: green;
+}
+
+.alternate-pos {
+  position: absolute;
+  top: 600px;
+  left: 150px;
+}
+
+.alternate-pos-2 {
+  position: absolute;
+  top: 1100px;
+  left: 300px;
+  font-size: 40px;
+}
+
+.alternate-pos-3 {
+  position: absolute;
+  top: 1100px;
+  left: 1000px;
+  font-size: 40px;
+}
+
+.alternate-pos-4 {
+  position: absolute;
+  top: 1050px;
+  left: 300px;
+  font-size: 25px;
+}
+
+.alternate-pos-5 {
+  position: absolute;
+  top: 1050px;
+  left: 1000px;
+  font-size: 25px;
+}
+
+.alternate-pos-6 {
+  position: absolute;
+  top: 900px;
+  left: 300px;
+  font-size: 40px;
+}
+
+.alternate-pos-7 {
+  position: absolute;
+  top: 900px;
+  left: 1000px;
+  font-size: 40px;
+}
+
+.alternate-pos-8 {
+  position: absolute;
+  top: 925px;
+  left: 300px;
+  font-size: 40px;
+}
+
+.alternate-pos-9 {
+  position: absolute;
+  top: 925px;
+  left: 1000px;
+  font-size: 40px;
+}
+
+.alternate-pos-10 {
+  position: absolute;
+  top: 1025px;
+  left: 300px;
+  font-size: 40px;
+}
+
+.alternate-pos-11 {
+  position: absolute;
+  top: 1025px;
+  left: 1000px;
+  font-size: 40px;
+}
+
+a {
+  color: coral;
+}
+
+a:hover {
+  color: gold;
+}

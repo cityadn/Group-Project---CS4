@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/football.jpg");
+    background-size: 50%;
+}
+
+div.center {
+    border-radius: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55vh;
+    width: 55vw;
+    background-color: pink;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size:larger;
+    color: hsl(2deg 97% 55%);
+    text-align: center;
+}
+
+p.name {
+    display: flex;
+    justify-content: left;
+    text-decoration: underline;
+}
+
+p.about {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    display: flex;
+    justify-content: right;
+    color: hsl(2deg 97% 55%);
+    font-weight: 700;
+    transform: translate(-10%,-189%);
+}
+
+a:hover {
+  color: blue;
+}
+
+.football-size {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 710px;
+}
+
+.messi-size {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 870px;
+}
+
+.arsenal-size {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+
+.coursework-links {
+  position: absolute;
+  top: 530px;
+  left: 1200px;
+  color: lime;
+  font-size: 25px;
+}

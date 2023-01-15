@@ -1,0 +1,57 @@
+/* Reference: How to use CSS - CSS Tutorial = https://www.w3schools.com/Css/ */
+/* Reference: Input Types - HTML = https://www.w3schools.com/html/html_form_input_types.asp*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  /* background: red; */
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .1),
+              -10px -10px 10px rgba(255, 255, 255, 1),
+              inset 10px 10px 10px rgba(0, 0, 0, .1),
+              inset -10px -10px 10px rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.container #dycalendar {
+  width: 100%;
+  padding: 20px;
+}
+
+#dycalendar table{
+  width; 100%;
+  margin-top: 40px;
+}
+
+#dycalendar table td{
+  font-weight: 700;
+  color: #444;
+  padding: 10px;
+}
+
+#dycalendar .dycalendar-header {
+  font-weight: 700;
+  color: #444;
+}
+
+#dycalendar .dycalendar-target-date {
+  color: #f8f8f8;
+  background: #444;
+}
+
+#dycalendar .dycalendar-target-date:hover {
+  background-color: red;
+}

@@ -1,0 +1,302 @@
+/* Reference: How to use CSS - CSS Tutorial = https://www.w3schools.com/Css/ */
+/* Reference: Input Types - HTML = https://www.w3schools.com/html/html_form_input_types.asp*/
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 10vh;
+  background: url("../images/venom.gif");
+  background-size: 1540px 713px;
+  color: white;
+}
+
+.img_class_2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 30px;
+  left: 670px;
+}
+
+.header_1 {
+  position: absolute;
+  top: 0px;
+  left: 1125px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: underline;
+}
+
+.header_2 {
+  position: absolute;
+  top: 300px;
+  left: 720px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: overline;
+  opacity: 0.5;
+}
+
+.header_2:hover {
+  opacity: 1;
+}
+
+.topleft3 {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    opacity: 1;
+    height: 80px;
+    width: 80px;
+}
+
+.button_variation {
+  font-size: 75px;
+}
+
+.transparent {
+    background-color: transparent;
+    border: none;
+}
+
+.button_class2 {
+    box-sizing: border-box;
+    transition: all 250ms ease-out;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    text-transform: none;
+    overflow: visible;
+    height: 1.75rem;
+    width: 1.95rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: gold;
+}
+
+.Interests-Hobbies {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  font-size: 15px;
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: coral;
+}
+
+.Interests-Hobbies-Heading {
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  text-decoration: underline;
+  font-weight: bolder;
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: crimson;
+}
+
+.border-coral {
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: coral;
+}
+
+.border-crimson {
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: crimson;
+}
+
+.border-teal {
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: teal;
+}
+
+.border-green {
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: green;
+}
+
+.Achievements-Feats {
+  position: absolute;
+  top: 290px;
+  left: -30px;
+  font-size: 15px;
+}
+
+.Achievements-Feats-Heading {
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.ncs-pos {
+  position: absolute;
+  top: 590px;
+  left: 100px;
+}
+
+.city-logo-pos {
+  position: absolute;
+  top: 490px;
+  left: 515px;
+}
+
+.img-size-1 {
+  width: 200px;
+  height: 118px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+
+.img-size-1:hover {
+  opacity: 1;
+}
+
+.img-size-2 {
+  width: 120px;
+  height: 80px;
+}
+
+.me-ncs {
+  position: absolute;
+  top: 580px;
+  left: 10px;
+}
+
+.me-ncs-border {
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: coral;
+}
+
+.bottom-arrow {
+  position: absolute;
+  top: 620px;
+  left: 25px;
+}
+
+.bottom-arrow-size {
+  width: 100px;
+  height: 80px;
+  opacity: 0.5;
+}
+
+.bottom-arrow-size:hover {
+  opacity: 1;
+}
+
+.about-me-pos {
+  position: absolute;
+  top: 52px;
+  left: 1125px;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.zane-img {
+  position: absolute;
+  top: 10px;
+  left: 775px;
+  width: 250px;
+  height: 250px;
+  opacity: 0.4;
+}
+
+.zane-img:hover {
+  opacity: 1;
+}
+
+.spider-man-img {
+  position: absolute;
+  top: 325px;
+  left: 1246px;
+  width: 290px;
+  height: 200px;
+  border-radius: 20px;
+  opacity: 0.4;
+}
+
+.spider-man-img:hover {
+  opacity: 1;
+}
+
+.miles-img {
+  position: absolute;
+  top: 410px;
+  left: 1110px;
+  width: 100px;
+  height: 100px;
+  opacity: 0.6;
+}
+
+.miles-img:hover {
+  opacity: 1;
+}
+
+.me {
+  position: absolute;
+  top: 617px;
+  left: 132px;
+  width: 15px;
+  height: 10px;
+  background: transparent;
+  border: 3px solid aqua;
+}
+
+.back-page-label {
+  position: absolute;
+  top: -3px;
+  left: 110px;
+  font-size: 30px;
+}
+
+.back-page-label-border {
+  display: inline-block;
+  padding: 0px;
+  border: solid white;
+  background-color: coral;
+  opacity: 0.4;
+}
+
+.back-page-label-border:hover {
+  opacity: 1;
+}
+
+.coursework-heading {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.coursework-links {
+  position: absolute;
+  top: 530px;
+  left: 1150px;
+  color: lime;
+  font-size: 25px;
+  text-decoration: underline;
+}

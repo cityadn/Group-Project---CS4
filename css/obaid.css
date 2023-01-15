@@ -1,0 +1,36 @@
+body {
+  background-color: grey;
+  background-size: cover;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.name-pos {
+  position: absolute;
+  top: -15px;
+  left: 715px;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.second-heading-pos {
+  position: absolute;
+  top: 220px;
+  left: 345px;
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.contact-pos {
+  position: absolute;
+  top: 5px;
+  left: 1430px;
+  color: white;
+  font-size: 23px;
+}
+
+.contact-pos:hover {
+  color: gold;
+  text-decoration: underline;
+}

@@ -1,0 +1,277 @@
+/* Reference: How to make a Card Slider in HTML CSS
+& Javascript: https://www.youtube.com/watch?v=BKKcGb80MOs */
+
+/* What did I change: The Colour Scheme, Our Names,
+The Number of Links and Buttons available, position of
+slider on web page, added nav bar and map to page*/
+
+/* Reference: Input Types - HTML = https://www.w3schools.com/html/html_form_input_types.asp*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 400px) {
+  section {
+    width: 100%;
+  }
+  section .card .image {
+    opacity: 0;
+  }
+  .rating i {
+    opacity: 0;
+  }
+}
+
+body {
+  height: 100vh;
+  max-width: 200vw;
+  background-image: linear-gradient(90deg, grey, teal);
+  overflow: hidden;
+}
+
+.teal {
+  color: white;
+  background-color: teal;
+  text-align: center;
+}
+
+.purple {
+  color: white;
+  background-color: purple;
+  text-align: center;
+}
+
+.black {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.green {
+  background-image: linear-gradient(90deg, green, teal);
+  color: white;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 180px;
+  background-color: black;
+}
+
+.background-image {
+  background-image: url("../images/clocks.jfif");
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: teal;
+}
+
+.element {
+  color: black;
+  align-items: center;
+  margin-left: -13px;
+  margin-top: -13px;
+  color: green;
+}
+
+td {
+  padding: 15px;
+}
+
+.table1 {
+  border: 0;
+  width : 46%;
+  cellspacing: 0;
+  color: green;
+  text-align: center;
+}
+
+.table2 {
+  border: 0;
+  cellpadding: 15;
+  cellspacing: 0;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  color: green;
+}
+
+.swiper {
+  width: 950px;
+  color: black;
+}
+
+section .card .image{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background-image: linear-gradient(90deg, green, teal);
+}
+
+section .card .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px 0;
+  width: 280px;
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height: 45%;
+  width: 100%;
+  /* background-color: #6616d0; */
+  background-image: linear-gradient(90deg, teal, green);
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.card .media-icons{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .media-icons i{
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card .media-icons i:hover{
+  opacity: 1;
+}
+
+..card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+.name-profession .name{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.name-profession .profession{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card .rating{
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.card .rating i{
+  font-size: 18px;
+  margin: 0 2px;
+  color: green;
+}
+
+.card .button{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card .button button {
+  background-image: linear-gradient(90deg, teal, green);
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button button:hover{
+  background: teal;
+}
+
+/* #6616d0 */
+
+iframe {
+  margin-top: 40px;
+  width: 1514px;
+  height: 600px;
+}
+
+.swiper-button-prev {
+  color: white;
+}
+
+.down_arrow {
+  position: absolute;
+  top: 100px;
+  left: 1025px;
+  color: coral;
+  font-size: 20px;
+  text-align: center;
+  font-family: monospace;
+  background-color: black;
+}
+
+.pins {
+  position: absolute;
+  top: 830px;
+  left: 1200px;
+  color: coral;
+  font-size: 20px;
+  text-align: center;
+  font-family: monospace;
+  background-color: teal;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.coral {
+  color: coral;
+}
+
+.i4ewOd-pzNkMb-r4nke-LS81yb, .di8rgd-TEhSn, .SfQLQb-fI6EEc {
+  opacity: 0;
+}

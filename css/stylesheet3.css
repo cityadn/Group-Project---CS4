@@ -1,0 +1,80 @@
+/* Reference: How to use CSS - CSS Tutorial = https://www.w3schools.com/Css/ */
+/* Reference: Input Types - HTML = https://www.w3schools.com/html/html_form_input_types.asp*/
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(90deg, teal, green);
+  font-size: 200px;
+  color: white;
+}
+
+button {
+  position: absolute;
+  top: 500px;
+  left: 800px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+.button-1 {
+  background-color: teal;
+  margin-left: -250px;
+}
+
+.button-2 {
+  background-color: red;
+}
+
+input {
+  background-color: black;
+  margin-top: 0px;
+  margin-left: 80px;
+  width: 1400px;
+  height: 200px;
+  font-size: 200px;
+  border-style: double;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: gold;
+  color: white;
+}
+
+p {
+  margin-top: 0px;
+  margin-left: 80px;
+}
+
+.square {
+  width: 1400px;
+  height: 200px;
+  background-color: black;
+  border-style: double;
+  border-radius: 50px;
+  border-width: 10px;
+  border-color: gold;
+}
+
+.note-pos-1 {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  font-family: monospace;
+  background-color: green;
+}
+
+.note-pos-2 {
+  position: absolute;
+  top: 500px;
+  left: 1150px;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  font-family: monospace;
+  background-color: teal;
+}
