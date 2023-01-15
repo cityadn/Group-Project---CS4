@@ -1,0 +1,403 @@
+div.section{
+    display: inline;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    left: 16px
+}
+a{
+    color: white;
+}
+a:link{
+    text-decoration:none;
+    background-color: none;
+}
+a:visited {
+    color: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color:rgb(229, 202, 91)
+}
+
+div.background {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+img.background {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+div.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img.logo {
+    width: 100%;
+    height: 100%;
+}
+div.bottom_right {
+    position: absolute;
+    bottom: 28px;
+    right: 16px;
+}
+div.bottom_left {
+    position: absolute;
+    bottom: 28px;
+    left: 16px
+}
+div.restaurant {
+    background-color: rgb(200, 205, 210);
+    width: 100%;
+    height: 210px;
+}
+h2.Ingredients {
+    text-align: center;
+    padding-top: 100px;
+    font: 100%/1 Filosofia,Georgia,serif; 
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 400px;
+    color: black;
+}
+
+div.restaurant_left {
+background-color: coral;
+float: left;
+width: 50%;
+height: 100vh;
+}
+
+img.restaurant_writing {
+    height: 50px;
+    padding-left: 200px;
+    padding-top: 135px;
+
+}
+
+h2.info {
+    font: 100%/1 Filosofia,Georgia,serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 1.2em;
+    line-height: 25px;
+    color: black;
+}
+
+div.restaurant_right {
+background-color: rgb(129, 94, 152);
+float: right;
+width: 50%;
+height: 100vh;
+}
+
+img.restaurant_image {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+div.restaurant_left_2 {
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+
+div.restaurant_right_2 {
+    background-image: linear-gradient(#f99d60, #f58a6f);
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+
+div.restaurant_left_3 {
+    background-color: #eedaa2;
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+
+div.food {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+div.restaurant_right_3 {
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+
+
+div.restaurant_left_4 {
+    float: left;
+    width: 50%;
+    height: 90vh;
+    background-color: #F5F5DC;
+    padding: 0;
+    margin: 0;
+}
+
+div.restaurant_right_4 {
+    float: right;
+    width: 50%;
+    height: 90vh;
+
+    background-color: #F5F5DC;
+}
+
+div.restaurant_left_5 {
+    float: left;
+    width: 50%;
+    height: 50vh;
+    background-color: #fafa6e;
+    padding: 0;
+    margin: 0;
+}
+
+div.restaurant_right_5 {
+    float: right;
+    width: 50%;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+img.restaurant_image_gift {
+    height: 50vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+img.restaurant_writing_gift {
+    height: 50px;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+div.reservation {
+    background-color: #3764df;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4em;
+    width: 100vw;
+    height: 100vh;
+}
+
+img.restaurant_writing_reservation {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    padding-top: 2vh;
+}
+
+
+h2.info_reservations {
+    text-align: center;
+    width: 50vw;
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+div.menus {
+    background-color: #bb890d;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4em;
+    width: 100vw;
+    height: 100vh;
+} 
+
+div.press {
+    background-color: #49c8b5;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4em;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.restaurant_left_6 {
+    float: left;
+    width: 50%;
+    background-color: #4891ae;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4em;
+    height: 100vh;
+}
+
+div.restaurant_right_6 {
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+iframe {
+    height: 100vh;
+    width: 50vw;
+    background-color: #4891ae;
+}
+
+div.clove {
+    background-color: #b7d667;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4em;
+    width: 100vw;
+    height: 100vh;
+}
+
+input.form {
+    width: 100%;
+    line-height: 1;
+    background: 0 0 transparent;
+    appearance: none;
+    color: #000;
+    margin-bottom: 0.625rem;
+    border-radius: 0;
+    border:  1px solid;
+    text-transform: uppercase;
+    padding: 1vh 1vw;
+    padding-right: 5vw;
+
+}
+form {
+    padding-bottom: 100px;
+}
+
+button.button {
+    background-color: transparent;
+    border-radius: 1em;
+    size: 100%;
+    border: 1px solid;
+    text-align: center;
+}
+
+button.button_1 {
+    height: 5vh;
+    width: 20vh;
+    color: black;
+    background-color: transparent;
+    border: 1px  white solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.button_2 {
+    height: 5vh;
+    width: 20vh;
+    color: black;
+    background-color: transparent;
+    border: 1px  white solid;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+div.button_2 {
+    padding-left: 19vw;
+}
+
+button.button_2 {
+    height: 7vh;
+    width: 20vh;
+    color: black;
+    background-color: transparent;
+    border: 1px  white solid;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+div.two_buttons {
+    display: inline;
+    justify-content: space-between;
+    width: 1vw;
+    margin-left: 15vw;
+}
+
+button.button_3 {
+    height: 7vh;
+    width: 20vh;
+    color: black;
+    background-color: transparent;
+    border: 1px  black solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+div.button_4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+button.button_4 {
+    height: 7vh;
+    width: 20vh;
+    color: black;
+    background-color: transparent;
+    border: 1px  black solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+div.button_side_by_side {
+width: 35vw;
+height: 35vh;
+padding-left: 12vw;
+}
+
+h2.info_Hours {
+    text-align: center;
+    width: 50vw;
+    font-size: 1.2em;
+    line-height: 25px;
+    font: 100%/1 Filosofia,Georgia,serif;
+    color: #fff;
+}
+
+hr {
+    width: 6vw;
+}
+
+html {
+    scroll-behavior: smooth;
+    display: contents '|' ;
+    color: white;
+}
+
+
+.parallax {
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

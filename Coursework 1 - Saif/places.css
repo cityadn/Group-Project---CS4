@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding:0;
+}
+.heading {
+font-family: Nunito;
+text-align: center;
+background-color: antiquewhite;
+border: 2px solid rgb(247, 202, 143);
+border-radius: 5px;
+
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+h2 {
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Nunito;
+}
+figcaption{
+    text-align: center;
+    font-family: Nunito;
+    font-weight: bolder;
+}
+
+p{
+    font-family: Dosis;
+    font-weight: 600;
+    text-align: center;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    border-radius: 5px;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    border-radius: 5px;
+
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 25%;
+    border-radius: 5px;
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .cards {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .imageContainer {
+display: flex;
+justify-content: space-around;
+  }
+.relatedImages {
+    height: 250px;
+    width: 320px
+}
+
+.navLinks {
+    display: flex;
+    justify-content: end;
+}
+
+a {
+  font-family: Nunito;
+  font-size: 15px;
+  padding-bottom: 15px;      
+  text-decoration: none;
+  font-weight:500;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 4%;
+  margin-left: 105;
+}
+a:hover {
+  color:rgb(143, 83, 4);
+}
